@@ -2,7 +2,8 @@ import Head from 'next/head';
 import styles from './Home.module.css';
 export default function Home() {
     const apiUrl = process.env.NEXT_PUBLIC_STAGGING_BASE_URL;
-        console.warn("======>>",apiUrl);
+        
+    console.warn("======>>",apiUrl);
   return (
     <div className={styles.container}>
       <Head>
